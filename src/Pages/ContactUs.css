@@ -1,0 +1,155 @@
+.largecontact {
+    /* background-image: url('/images/soup-1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
+}
+
+.smallercontact {
+    background-color: rgb(0, 0, 0, 0.85);
+    padding-top: 5px;
+    height:815px;
+}
+
+
+
+.contact-desc1 {
+    text-align: center;
+    width: 900px;
+    font-size: 20px;
+    color:  #dbb321;
+    margin: auto;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    margin: 2% 0 0 22%;
+}
+
+.contactusform {
+    margin-left: 15%;
+}
+
+.contactus2 {
+    margin-top: 10%;
+    /* margin-left: 20px; */
+}
+
+.address {
+    color: #eaf1f3;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#adesc {
+    margin-top: -14px;
+    font-size: 20px;
+    width: 200px;
+    color: #dbb321;
+    text-decoration: none;
+}
+
+#adesc-link{
+    margin-top: -14px;
+    font-size: 19px;
+    width: 200px;
+    color: #dbb321;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-div {
+    position: relative;
+}
+
+.contact-icon {
+    position: absolute;
+    left: -75px;
+    top: -2 px;
+    border: 1px solid #eaf1f3;
+    border-radius: 25px;
+    padding: 5px;
+    /* background-color: white; */
+    width: 40px;
+    height: 40px;
+    margin-top: -6px;
+}
+
+.Contact-form {
+    width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    height: 87vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact-us {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.form-margin {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.send-msg {
+    color: #442A00;
+    text-align: center;
+}
+
+.error-msg {
+    color: rgb(252, 15, 15);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#contactna-em {
+    width: 70%;
+    font-size: 15px;
+    margin: 3px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    resize: none;
+}
+
+.cp {
+    left: 0;
+    font-size: 18px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #442A00;
+    font-weight: 600;
+}
+
+#contactsub {
+    margin-top: 33px;
+    width: 120px;
+    height: 40px;
+    margin-left: 34%;
+    background-color: #442A00;
+    color: #eaf1f3;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+
+#contactsub:hover {
+    background-color: #d84012;
+    color: #442A00;
+}

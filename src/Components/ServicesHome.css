@@ -1,0 +1,90 @@
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+.services ,
+.services::before,
+.services::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.services {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 2rem;  
+  /* color: rgb(141, 23, 23); */
+  font-family: 'Mulish', sans-serif;
+}
+
+.service_heading { text-align: center;
+color: #442A00;
+font-size: 3em; 
+margin: 0;}
+
+.service_list {
+  width: min(70rem, 90%);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  list-style: none;
+  counter-reset: stepnr;
+}
+.icon img{
+    height:60px;
+    width:60px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+  }
+.service_list_item:nth-child(6n + 1) { --accent-color: #4d2a03}
+.service_list_item:nth-child(6n + 2) { --accent-color: #442A00 }
+.service_list_item:nth-child(6n + 3) { --accent-color: #442A00}
+.service_list_item:nth-child(6n + 4) { --accent-color: #442A00 }
+.service_list_item:nth-child(6n + 5) { --accent-color: #442A00 }
+.service_list_item:nth-child(6n + 6) { --accent-color: #442A00 }
+
+.service_list .service_list_item {
+  counter-increment: stepnr;
+  width: 14rem;
+  height: 16rem;
+  --borderS: 22px;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--borderS) + 24px);
+  position: relative;
+}
+.service_list .service_list_item::before,
+.service_list .service_list_item::after {
+  inset: 0;
+  font-family: "Exo 2", sans-serif;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid  rgba(245, 245, 245);
+  line-height: 1.1;
+}
+.service_list .service_list_item::before {
+  content: counter(stepnr);
+  color: var(--accent-color);
+  padding-left: 140px;
+  padding-top: 19px;
+  font-size: 150px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.service_list .service_list_item::after {
+  content: "";
+  filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(68, 42, 0, 1)) blur(5px);
+}
+
+.service_list .service_list_item > * { width: 7.5rem}
+.service_list .service_list_item.icon { font-size: 2rem; color: var(--accent-color); text-align: center; }
+
+.service_list .service_list_item .descr { font-size: 1.1rem; font-weight: 800;
+text-align:center; color:#442A00;margin-top: 40px;}

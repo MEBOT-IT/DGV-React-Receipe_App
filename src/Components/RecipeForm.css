@@ -1,0 +1,226 @@
+.add_recform{
+    border: 2px solid black;
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    color: brown;
+    /* align-items: center; */
+    padding: 20px;
+    border-radius: 20px;
+    height: 520px;
+    width:600px;
+    /* fixed place for form */
+    position:fixed ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(0 0px 3px rgba(0, 0, 0, 0.25));
+    overflow-y: scroll;
+}
+.form-img{
+    padding: 20px;
+}
+.title-input{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #eaf1f3;
+    font-family: serif;
+    font-size: medium;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    transform: translate(-30px, 0px);
+}
+.image-input{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #eaf1f3;
+    font-family: serif;
+    font-size: medium;
+    border: none;
+    padding: 9px;
+    width: 87%;
+    transform: translate(3px, 0px);
+}
+.rec_img{
+    transform: translate(-45px,10px);
+    width: 35px;
+    height: 35px;
+}
+
+.icon_title{
+    border-radius: 20px;
+    align-items: center;
+    /* background-color: #ebeaeb; */
+    /* width: 22em; */
+    /* background: #000; */
+    margin-left: 50px;
+}
+/* .icon_ingre{
+    margin-top:10px ;
+    background-color: #ebeaeb;
+    border-radius: 20px;
+}
+.icon_steps{
+    margin-top:10px ;
+    background-color: #ebeaeb;
+    border-radius: 20px;
+} */
+.desc-input{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #eaf1f3;
+    font-family: serif;
+    font-size: medium;
+    border: none;
+    padding: 5px;
+    width: 83%;
+    transform: translate(24px, 0px);
+}
+.ingre-input{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    height: 30px;
+    background-color: #eaf1f3;
+    font-family: serif;
+    font-size: medium;
+    border: none;
+    padding: 5px;
+    width: 83%;
+    transform: translate(25px, 0px);
+}
+#ingreimg{
+    height: 35px;
+    width: 35px;
+    transform: translate(10px,10px);
+}
+
+.rec_button{
+/* margin-top: 2rem; */
+padding: 10px;
+margin: 0 20px 0 20px;
+border: none;
+font-weight: bolder;
+color: #ffffff;
+background-color: #d84012;
+cursor: pointer;
+border-radius: 10px;
+font-family: 'Mulish', sans-serif;
+}
+.view-div{
+    text-align: center;
+    margin: 20px;
+}
+#view_form{
+    padding: 10px;
+margin: 0 20px 0 20px;
+border: none;
+font-size: 18px;
+font-weight: bolder;
+color: #ffffff;
+background-color: #d84012;
+cursor: pointer;
+border-radius: 10px;
+font-family: 'Mulish', sans-serif;
+width: 180px;
+}
+.rec_button1{
+padding: 10px;
+/* margin: 10px 20px 0 20px; */
+border: none;
+font-weight: bolder;
+color: #ffffff;
+background-color: #d84012;
+cursor: pointer;
+border-radius: 10px;
+font-family: 'Mulish', sans-serif;
+}
+.rec_button:hover,.rec_button1:hover{
+color: #d84012;
+background-color: #fff;
+border: 2px solid black;
+}
+#form-close{
+    margin-top:50px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #d84012;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.rec_butt1 button:hover{
+    background-color: black;
+}
+.close_form{
+    width: 30px;
+    height: 30px;
+    color: #eaf1f3;
+    background-color: #442A00;
+    border-radius: 50%;
+    margin: 10px auto;
+    font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close_form:hover{
+    cursor: pointer;
+    color: #442A00;
+    background-color: #fff;
+}
+
+#add-heading{
+    font-size: 30px;
+    color: #442A00;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+#addimg{
+    color: #442a00;
+    font-weight: bold;
+    margin: 10px;
+    transform: translate(-25px, 0px);
+    font-size: 18px;
+}
+.addimg-icon {
+    transform: translate(-10px, 14px);
+    height: 35px;
+    width: 35px;
+}
+.stepsinput {
+    resize: none;
+    height: 60px;
+    width: 83%;
+    background-color: #eaf1f3;
+    border-radius: 10px;
+    transform: translate(24px, 20px);
+    padding: 5px;
+}
+.stepsimg {
+    height: 35px;
+    width: 35px;
+    transform: translate(10px, 5px);
+}
+.despimg{
+    height: 35px;
+    width: 35px;
+    transform: translate(10px, 10px);
+}
+.ingredientimg{
+    height: 35px;
+    width: 35px;
+    transform: translate(10px, 10px);
+}
+.stepsinput::placeholder{
+    transform: translate(0,20px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submitbtn{
+    text-align: center;
+}

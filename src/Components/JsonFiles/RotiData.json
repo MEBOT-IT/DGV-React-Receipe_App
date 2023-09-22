@@ -1,0 +1,94 @@
+[
+    {
+        "id": 46,
+        "kcal":"205 kcal",
+    "link":"https://www.indianhealthyrecipes.com/chapati/",
+        "img": "/images/chapathi.jpg",
+        "isFavorite": false,
+        "title": "Chapati",
+        "description": "A humble, unleavened flatbread that's a staple of Indian cuisine, perfect for scooping up your favorite curries.",
+        "ingredients":  [
+            "2 cups whole wheat flour",
+            "1 cup water (approximately)",
+            "Salt to taste"
+          ],
+      "steps":  [
+        "Mix whole wheat flour and salt in a bowl.",
+        "Gradually add water and knead into a soft dough.",
+        "Divide the dough into small balls and roll them into thin rounds.",
+        "Heat a griddle or pan and cook the chapatis until they puff up and have brown spots.",
+        "Serve hot with your favorite curry."
+      ]
+    },
+    {
+        "id":47,
+        "kcal":"270 kcal",
+    "link":"https://www.vegrecipesofindia.com/butter-naan-recipe-whole-wheat-butter-naan/",
+        "img":"/images/butter naan.jpg",
+        "isFavorite": false,
+        "title":"Butter Naan",
+        "description":"Soft, pillowy bread with a touch of buttery goodness, the perfect sidekick to your flavorful dishes.",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "1/2 cup yogurt",
+            "1 teaspoon sugar",
+            "1 teaspoon baking powder",
+            "1/2 teaspoon baking soda",
+            "Salt to taste",
+            "2 tablespoons butter",
+            "Water (as needed)"
+          ],
+      "steps": [
+        "In a bowl, mix all-purpose flour, sugar, baking powder, baking soda, and salt.",
+        "Add yogurt and butter to the dry ingredients and mix well.",
+        "Gradually add water to make a soft dough.",
+        "Divide the dough into small portions and roll them into oval or round shapes.",
+        "Cook the naan on a hot griddle or tava until they puff up and turn golden brown.",
+        "Brush with melted butter and serve."
+      ]
+    },
+    {
+        "id":48,
+        "img":"/images/Phulka.jpg",
+        "isFavorite": false,
+        "kcal":"240 kcal",
+    "link":"https://www.archanaskitchen.com/phulka-roti-chapati-puffed-indian-bread",
+        "title":"Phulka",
+        "description":"Light and puffed, these whole wheat flatbreads are a wholesome choice for your everyday meals.",
+        "ingredients": [
+            "2 cups whole wheat flour",
+            "Water (as needed)",
+            "Salt to taste"
+          ],
+      "steps":  [
+        "Mix whole wheat flour and salt in a bowl.",
+        "Gradually add water and knead into a soft dough.",
+        "Divide the dough into small balls and roll them into thin rounds.",
+        "Cook the phulkas on a hot griddle or tava until they puff up and have brown spots.",
+        "Serve hot with your favorite side dish."
+      ]
+    },
+    {
+        "id":49,
+        "isFavorite": false,
+        "img":"/images/parota.jpg",
+        "title":"Parotta",
+        "kcal":"290 kcal",
+    "link":"https://www.yummytummyaarthi.com/flaky-paratha/",
+        "description":"Flaky, layered, and irresistible, these South Indian delights are a true indulgence for your taste buds.",
+        "ingredients":  [
+            "2 cups all-purpose flour",
+            "2 tablespoons ghee (clarified butter)",
+            "Salt to taste",
+            "Water (as needed)"
+          ],
+      "steps":  [
+        "Mix all-purpose flour, salt, and ghee in a bowl.",
+        "Gradually add water and knead into a soft and elastic dough.",
+        "Divide the dough into small balls and flatten them into thin discs.",
+        "Heat a griddle or tava and cook the parotas until they are golden brown and flaky.",
+        "Serve hot with your favorite curry or chutney."
+      ]
+    }
+  ]
+  

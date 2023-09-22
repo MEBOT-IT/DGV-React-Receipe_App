@@ -1,0 +1,47 @@
+/* Style for the whole ImageTextList container */
+.ImageTextList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+/* Style for each image and text container */
+.ImageTextList-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-30px);
+    height: 560px;
+}
+
+/* Style for the image */
+.ImageTextList-item img {
+    width: 400px;
+    /* Adjust the width as needed */
+    height: 400px;
+}
+
+.ImageTextList-item h1{
+    padding: 10px 30px;
+    transform: translateY(-40px);
+    font-size: 50px;
+    color: #442A00;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+
+}
+
+/* Style for the text */
+.ImageTextList-item p {
+    width: 800px;
+    color: #442A00;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Mulish', sans-serif;
+    transform: translateY(-70px);
+}

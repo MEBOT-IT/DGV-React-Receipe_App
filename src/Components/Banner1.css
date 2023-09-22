@@ -1,0 +1,47 @@
+.banner1_container {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Mulish', sans-serif;
+}
+
+.banner1_head {
+    color: #442A00;
+    font-size:45px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.banner1_desp {
+    color: #442A00;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.message-button {
+    background-color:  #442A00;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.message-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.message-button:hover {
+    background-color: #d84012;
+}

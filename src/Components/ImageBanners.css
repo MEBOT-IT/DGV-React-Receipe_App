@@ -1,0 +1,21 @@
+.aboutbanner{
+    width: 1330px;
+    height: 640px;
+}
+
+.banner-img{
+    max-width: 1349px;
+    object-fit: cover;
+}
+
+.banner-title{
+    position: relative;
+   margin: auto;
+   text-align: center;
+   transform: translateY(-430px);
+   font-size: 68px;
+   font-style: italic;
+   line-height: 90px;
+   width: 550px;
+   color: #442A00;
+}

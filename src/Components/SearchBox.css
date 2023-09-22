@@ -1,0 +1,54 @@
+.searchInput-Container{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:70px 0px 50px auto;
+}
+
+.searchInput-Container input{
+    width: 50%;
+    padding: 16px;
+    outline: none;
+    caret-color: #442a00;
+}
+
+.recipe-container:has(.search-Container:empty){
+    display: none;
+}
+
+.search-Container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+#searchInput::placeholder{
+    transform: translateY(3px);
+    font-size: 20px;
+    font-weight: 600;
+    color: #442a00;
+    font-family: 'Mulish', sans-serif;
+}
+
+.recipe-header{
+    text-align: center;
+    color: #442a00;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+}
+
+.clickable-element {
+    background-color: #fff; 
+    color: #442a00; 
+    padding: 10px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-bottom: 7px;
+  }
+  
+  .clicked {
+    background-color: #442a00; 
+    color: #fff; 
+  }

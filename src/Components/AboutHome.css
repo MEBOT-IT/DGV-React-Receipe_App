@@ -1,0 +1,163 @@
+/* font-family: 'Courgette', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mulish', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+  .section{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 50px 100px;
+    font-family: 'Mulish', sans-serif;
+  }
+    
+  .section .title{
+        color: rgb(88, 0, 13);
+        font-size: 3em;
+        transform: translateY(-80px);
+    }
+    .section .info{
+      color: black;
+      text-align: justify;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 1.3;
+      transform: translateY(-50px);
+    }
+    .section .col{
+      width: 50%;
+      padding-right:7%;
+      padding-left: 10px;
+  
+    }
+  
+    .section .btn{
+      border: none;
+      outline: none;
+      background-color: #442A00;
+      color:white;
+      padding: .75em 1em;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px black;
+      
+  }
+
+  .section .btn a{
+    text-decoration: none;
+    color:white;
+  }
+  .section .btn:hover{
+    color:black;
+    background-color: #d84012;
+    }
+  
+    .custom-image{
+      height: 0;
+      width: 100%;
+      position: relative;
+    }
+  
+  .abouthome_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }   
+  
+  .section.hero{
+      .typography{
+        padding-right: 1em;
+  
+    }
+  
+  }
+  .section.hero .gallery{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1.75vw;
+}
+  .custom-image{
+    transform: scale(0);
+    opacity: 0;
+    animation-name: popOut;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+  }
+  .custom-image:nth-child(2)
+  {
+  animation-delay: .1s;
+  } 
+  .custom-image:nth-child(3)
+  {
+  animation-delay: .2s;
+  }    
+  .custom-image:nth-child(6)
+  {
+  animation-delay: .3s;
+  }    
+  .custom-image:nth-child(9)
+  {
+  animation-delay: .4s;
+  }    
+  .custom-image:nth-child(8)
+  {
+  animation-delay: .5s;
+  }    
+  .custom-image:nth-child(7)
+  {
+  animation-delay: .6s;
+  }    
+  .custom-image:nth-child(4)
+  {
+  animation-delay: .7s;
+  }  
+  .custom-image:nth-child(5)
+  {
+  animation-delay: .8s;
+  }
+  
+  @keyframes popOut{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+  }
+  @media (width <= 1280px){
+      .container{
+          padding-inline: 18vw;
+          margin: 0px;
+      }
+  }
+  /* @media (width <= 1050px){
+      .container{
+          padding-inline: 12vw;
+      }
+  } */
+  @media (width <= 768px){
+      
+      .section {
+          flex-wrap: wrap;
+      .col{
+          width: 100%;
+          padding: 0px !important;
+          text-align: center;
+          margin-bottom: 2em;
+      }
+      }
+  }
+  /* @media (width <= 420px){
+      .container{
+          padding-inline: 3vw;
+  }
+  } */
+  

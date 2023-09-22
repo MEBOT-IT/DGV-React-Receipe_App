@@ -1,0 +1,88 @@
+.car_h1{
+    color:#442A00;
+    font-size: 45px;
+  }
+  .car_prev_butt{
+    position: absolute;
+    color:#442A00;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-right: 80px; */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#e0be23 ;
+  
+    margin: 50px;
+    padding: 8px 16px;
+    width: 10%;
+    height: 10%;
+  }
+  
+  .Car_next_butt{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#e0be23 ;
+  
+    margin: 50px;
+    padding: 8px 16px;
+    width: 10%;
+    height: 10%;
+  }
+  .car_slider {
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+  }
+  .car_slide {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color:#ddca77;
+    
+  }
+  
+  .car_img_name img{
+    position: relative;
+    box-shadow: #442A00 5px 5px 5px;
+    width: 200px;
+    border-radius: 50%;
+    height: 30%;
+  }
+  .checked{
+    color: #442A00;
+  }
+  .slide i {
+     color: #442A00;
+  }
+  .ReviewRating{
+    display: flex;
+    align-items: center;
+  }
+
+  .car_slide p{
+    font-weight: 600;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  
